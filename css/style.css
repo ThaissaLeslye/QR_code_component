@@ -12,7 +12,7 @@
 	box-sizing: border-box;
 }
 
-body {
+main {
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -60,7 +60,12 @@ body {
 	color: var(--slate-500);
 }
 
+footer {
+	width: 100vw;
+}
+
 .attribution {
+	width: 100%;
 	position: absolute;
 	bottom: 0;
 	font-size: 12px;
