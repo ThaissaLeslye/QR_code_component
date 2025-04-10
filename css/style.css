@@ -14,55 +14,55 @@
 
 body {
 	height: 100vh;
-    display: flex;
+	display: flex;
 	align-items: center;
-	justify-content:center;
+	justify-content: center;
 	flex-direction: column;
-
-    font-family: var(--main-font);
-
+	font-family: var(--main-font);
 	background-color: var(--slate-300);
 }
 
 .card {
 	width: 320px;
 	height: 499px;
-    padding: 16px;
-    display: flex;
+	padding: 16px;
+	display: flex;
 	align-items: center;
 	flex-direction: column;
-
 	border-radius: 20px;
 	background-color: var(--card-background);
 }
 
-/* IMAGEM PRINCIPAL */
-.qr-code {
+/* IMAGEM */
+.card__image {
 	width: 288px;
 	height: 288px;
-    margin-bottom: 16px;
-	justify-items: center;
+	margin-bottom: 16px;
 	border-radius: 10px;
 }
 
-/* DIV COM TEXTOS */
-.text-content {
+/* CONTEÚDO DE TEXTO */
+.card__content {
 	width: 256px;
 	margin-top: 16px;
-    text-align: center;
+	text-align: center;
 }
 
-.title {
-    margin-bottom: 16px;
+.card__title {
+	margin-bottom: 16px;
 	font-size: 22px;
 	font-weight: bold;
+	color: var(--slate-900);
 }
 
-.text-content > p {
+.card__description {
 	font-size: 15px;
+	color: var(--slate-500);
 }
 
 .attribution {
-    position: absolute;
-    bottom: 0;
+	position: absolute;
+	bottom: 0;
+	font-size: 12px;
+	text-align: center;
 }
